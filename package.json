@@ -1,0 +1,25 @@
+{
+  "name": "mcp-weather",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "axios": "^1.9.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.21.2",
+    "express-validator": "^7.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "keywords": [
+    "weather",
+    "mcp"
+  ],
+  "author": "",
+  "license": "ISC",
+  "description": "MCP server for global weather data"
+}
