@@ -110,7 +110,24 @@ npm start
 ### MCP配置
 
 ```json
-
+{
+  "mcpServers": {
+    "weather": {
+      "disabled": false,
+      "timeout": 60,
+      "command": "npx",
+      "args": [
+        "-y",
+        "link:/Users/tc/Documents/GitHub/mcp-weather"
+      ],
+      "transportType": "http",
+      "port": 3000,
+      "env": {
+        "NODE_ENV": "development"
+      }
+    }
+  }
+}
 ```
 
 ### 项目结构
